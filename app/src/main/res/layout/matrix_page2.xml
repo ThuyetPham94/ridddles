@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/customTextView13"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/thirteen"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/customTextView12"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/fourteen"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/textView32"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/fifteen"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/customTextView113"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/sixteen"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/customTextView112"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/seventeen"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/textView312"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/eighteen"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/customTextView123"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/nineteen"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/customTextView122"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/twenty"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/textView322"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/twentyone"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size66"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/customTextView1123"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/twentytwo"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/customTextView1122"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_weight="1"
+            android:textSize="@dimen/size_text_16"
+            android:textColor="@color/colorTextWhite"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/twentythree" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/textView3212"
+            android:layout_width="@dimen/size66"
+            android:layout_height="@dimen/size66"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_item_lock"
+            android:gravity="center"
+            android:text="@string/twentyfour"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+    </LinearLayout>
+</LinearLayout>

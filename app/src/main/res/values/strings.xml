@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Riddle</string>
+    <string name="matrix_page1">Matrix Page 1</string>
+    <string name="matrix_page2">Matrix Page 2</string>
+    <string name="introduction_page1">Introduction Page 1</string>
+    <string name="introduction_page2">Introduction Page 2</string>
+    <string name="introduction_page3">Introduction Page 3</string>
+    <string name="introduction_page1_content">Riddles can help sharpen the mind and\nopen up new thought processes. Practic- \n ing them each day can help simplify \n your thinking, improve memory and \n enhance cognitive capabilities. \n \n The besthing is that challenging riddles\ncan be solved easily... with a few simple \n techniques.</string>
+    <string name="introduction_page2_content">TSR - Football Edition requires the sharp- \n est of minds to take on its series of mind \n twisting riddles. \n \n Prepare yourself to take on the ultimate \n footballing trivia chanllenge.</string>
+    <string name="introduction_page3_content">At every stage you\'ll need to solve five \n riddles to progress to the next level. \n Users are to guess the sports personality \n mentioned, based on being team mates \n with the former or current players mend- \n tioned within the riddle. Be it either \n international or club level.</string>
+    <string name="Skip">Skip</string>
+    <string name="lockTheAnswer">Lock The Answer</string>
+    <string name="Ad_goes_here">Ad goes here</string>
+    <string name="hint">Hint</string>
+    <string name="super_hint">Super Hint</string>
+    <string name="button_no">No</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_cancel">Cancle</string>
+    <string name="button_proceed">Proceed</string>
+    <string name="did_you_mean">Did you mean</string>
+    <string name="incorrect_answer">Incorrect answer</string>
+    <string name="button_try_again">Try again</string>
+    <string name="button_play_next">Play next</string>
+    <string name="play_next_level">Play next level</string>
+    <string name="get_a_hint">Get a Hint</string>
+    <string name="get_a_hint_content">Hint will cost you 2 coins. Would you \n like to proceed?</string>
+    <string name="get_a_super_hint">Get a Super Hint</string>
+    <string name="get_a_super_hint_content">Hint will cost you 2 coins. Would you \n like to proceed?</string>
+    <string name="button_done">Done</string>
+    <string name="riddle1">Riddle 1</string>
+    <string name="riddle2">Riddle 2</string>
+    <string name="riddle3">Riddle 3</string>
+    <string name="riddle4">Riddle 4</string>
+    <string name="riddle5">Riddle 5</string>
+    <string name="pass_next_level">Pass to next level</string>
+    <string name="try_again">Try again</string>
+    <string name="congratulation">Congratulations</string>
+    <string name="you_won">You won!</string>
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="level4">Level 4</string>
+    <string name="level5">Level 5</string>
+    <string name="login_facebook">Sign in with facebook</string>
+    <string name="share_facebook">Share with facebook</string>
+    <string name="share_riddle_title">Share a riddle to \n chanllenge your friends</string>
+    <string name="share_now">Share now</string>
+    <string name="not_now">Not now</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="twitter">Twitter</string>
+
+    <string name="home">Home</string>
+    <string name="get_coins">Get coins</string>
+    <string name="how_it_work">How it works</string>
+    <string name="about_app">About the App</string>
+    <string name="trophy_cabinet">Trophy cabinet</string>
+    <string name="hint_and_super_hint">Hint and Super hints</string>
+    <string name="feed_back">Feedback</string>
+    <string name="notifications">Notificaitions</string>
+    <string name="log_out">Log out</string>
+
+    <string name="how_it_works_content">
+        1. Guess the sports personality by typing in the cor- \n rect answer. \n \n
+        2. Optional Hint/Super Hints can be redeemed by \n using coins to help you past a tricky riddle. \n \n
+        3. Out of coins? Click on the menu icon and go to \n \"Get Coins\" for additional coins. \n \n
+        4. Kick off you Sports Riddle journey and Enjoy\!
+    </string>
+    <string name="about_app_content">
+        Riddles can help sharpen the mind and open up \n
+        new thought processes. Practicing them each day \n
+        can help simplify your thinking, improve memory \n
+        and enhance cognitive capabilitis. The best thing \n
+        is that challenging riddles can be solved easily \.\.\.\n
+        with a few simple techniques. \n \n
+        TSR - Foodball Edition requires the sharpest of \n
+        minds to take on its series of mind twisting riddles. \n
+        Prepare yourself to take on the ultimate footballing \n
+        trivia challenge. \n \n
+        At every stage you\'ll need to solve five riddles to \n
+        progress to the next level. Users are to guess the \n
+        sports personality mentioned, based on being\n
+        team mates with the former or currnt players\n
+        mentioned within the riddle. Be it either interna- \n
+        tional or club level
+    </string>
+    <string name="hint_and_super_hint_content">
+        Hints\: \n
+        Should you be stuck on a riddle, you have the \n
+        option of choosing a hint which will increase your \n
+        chance of uncovering the answer. \n \n
+        Super Hints\:\n
+        Super Hints are desinged for user relief during a \n
+        riddle they just can\'t solve. It will almost practically \n
+        give away the answer by droping a major clue to \n
+        uncover that sports personality.
+    </string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Phone</string>
+    <string name="mesage">Message</string>
+    <string name="send_mesage">Send message</string>
+    <string name="buy_coin">Buy coins</string>
+    <string name="twenty_coins">20 coins</string>
+    <string name="eithty_coins">80 coins</string>
+    <string name="one_fifty_coins">150 coins</string>
+    <string name="one_dollar">$ 1.00</string>
+    <string name="three_dollar">$ 3.00</string>
+    <string name="five_dollar">$ 5.00</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+    <string name="eleven">11</string>
+    <string name="twelve">12</string>
+    <string name="thirteen">13</string>
+    <string name="fourteen">14</string>
+    <string name="fifteen">15</string>
+    <string name="sixteen">16</string>
+    <string name="seventeen">17</string>
+    <string name="eighteen">18</string>
+    <string name="nineteen">19</string>
+    <string name="twenty">20</string>
+    <string name="twentyone">21</string>
+    <string name="twentytwo">22</string>
+    <string name="twentythree">23</string>
+    <string name="twentyfour">24</string>
+
+
+</resources>

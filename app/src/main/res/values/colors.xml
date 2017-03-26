@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Color text-->
+    <color name="colorTextWhite">#ffffff</color>
+    <!--Color btn face-->
+    <color name="colorBtnFace">#3D5A97</color>
+    <!--Color btn skip-->
+    <color name="colorBtnSkip">#808184</color>
+    <!--Color bottom advertisment-->
+    <color name="colorBottomAd">#2E2E2E</color>
+    <!--Color baner point-->
+    <color name="colorBanerPoint">#808184</color>
+    <!--Color stroke question-->
+    <color name="colorStrokeQuestion">#808184</color>
+    <!--Color text-->
+    <color name="colorBlack">#000000</color>
+    <!--Color lock the answer-->
+    <color name="colorLockTheAnswerStart">#3BB683</color>
+    <color name="colorLockTheAnswerCenter">#5ABD80</color>
+
+    <!--Color transparent-->
+    <color name="colorTransparent">#00000000</color>
+    <!--Color adGoesHere-->
+    <color name="colorAdGoesHere">#5D5D5D</color>
+    <!--Color Hint-->
+    <color name="colorHintStart">#00918E</color>
+    <color name="colorHintCenter">#29B2A9</color>
+    <!--Color SuperHint-->
+    <color name="colorSuperHintStart">#F79720</color>
+    <color name="colorSuperHintCenter">#F9AA3A</color>
+
+    <!--Color transparent Black 70%-->
+    <color name="colorBlackTrans">#B3000000</color>
+
+    <!--Color button No-->
+    <color name="colorButtonNoStart">#EC1E24</color>
+    <color name="colorButtonNoCenter">#ED2F62</color>
+
+    <!--Color button Yes-->
+    <color name="colorButtonYesStart">#3BB683</color>
+    <color name="colorButtonYesCenter">#58BD81</color>
+
+    <!--Color transparent Black 70%-->
+    <color name="colorRed">#DD0000</color>
+    <!--Color green-->
+    <color name="colorGreen">#3BB683</color>
+
+    <!--Color background confirm get a hint-->
+    <color name="colorGreenHintStart">#00918E</color>
+    <color name="colorGreenHintCenter">#2AADA4</color>
+
+    <!--Color background confirm get a super hint-->
+    <color name="colorOrangeSuperHintStart">#F79720</color>
+    <color name="colorOrangeSuperHintCenter">#FAAE3F</color>
+
+
+
+</resources>

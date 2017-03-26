@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_background">
+
+    <com.riddle.common.CustomTextView
+        android:id="@+id/customTextView10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size42"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout9"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/border_lock_the_answer"
+        android:gravity="center"
+        android:text="@string/share_now"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/size_text_16" />
+
+    <com.riddle.common.CustomTextView
+        android:id="@+id/customTextView8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size42"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/customTextView10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_dialog_grey"
+        android:gravity="center"
+        android:text="@string/not_now"
+        android:textColor="@color/colorStrokeQuestion"
+        android:textSize="@dimen/size_text_16" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size121"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="@dimen/size150"
+            android:layout_height="@dimen/size121"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border_grey_no_conner"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="@dimen/size38"
+                android:layout_height="@dimen/size38"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/ic_whatsup" />
+
+            <com.riddle.common.CustomTextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/whatsapp"
+                android:textColor="@color/colorStrokeQuestion"
+                android:textSize="@dimen/size_text_14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/size150"
+            android:layout_height="@dimen/size121"
+            android:background="@drawable/border_grey_no_conner"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="@dimen/size38"
+                android:layout_height="@dimen/size38"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/ic_twitter" />
+
+            <com.riddle.common.CustomTextView
+                android:id="@+id/customTextView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/twitter"
+                android:textColor="@color/colorStrokeQuestion"
+                android:textSize="@dimen/size_text_14" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size121"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="@dimen/size150"
+            android:layout_height="@dimen/size121"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/border_grey_no_conner"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="@dimen/size38"
+                android:layout_height="@dimen/size38"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/ic_instagram" />
+
+            <com.riddle.common.CustomTextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/size_text_14"
+                android:textColor="@color/colorStrokeQuestion"
+                android:text="@string/instagram" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/size150"
+            android:layout_height="@dimen/size121"
+            android:background="@drawable/border_grey_no_conner"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="@dimen/size38"
+                android:layout_height="@dimen/size38"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/ic_facebook" />
+
+            <com.riddle.common.CustomTextView
+                android:id="@+id/customTextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/facebook"
+                android:textColor="@color/colorStrokeQuestion"
+                android:textSize="@dimen/size_text_14" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_confirm_get_a_super_hint">
+
+    <com.riddle.common.CustomTextView
+        android:id="@+id/textView18"
+        android:layout_width="@dimen/size138"
+        android:layout_height="@dimen/size44"
+        android:background="@drawable/border_btn_done"
+        android:gravity="center"
+        android:text="@string/button_done"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="@dimen/size_text_18"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:orientation="vertical"
+        android:layout_above="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/size_text_18"
+            android:textColor="@color/colorTextWhite"
+            android:text="@string/get_a_super_hint" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:textSize="@dimen/size_text_16"
+            android:textColor="@color/colorTextWhite"
+            android:text="Set super hint to here" />
+    </LinearLayout>
+
+</RelativeLayout>

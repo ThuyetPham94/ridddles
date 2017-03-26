@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlackTrans"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size114"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="159dp"
+        android:background="@drawable/border_dialog_grey"
+        android:orientation="vertical">
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView14"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Monalisa"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_14" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="@string/did_you_mean"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_18" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size43"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/textView11"
+            android:layout_width="@dimen/size150"
+            android:layout_height="@dimen/size43"
+            android:layout_above="@+id/textView13"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border_button_no"
+            android:gravity="center"
+            android:text="@string/button_no"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+
+        <com.riddle.common.CustomTextView
+            android:id="@+id/textView13"
+            android:layout_width="@dimen/size150"
+            android:layout_height="@dimen/size43"
+            android:layout_alignEnd="@+id/linearLayout2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/linearLayout2"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/border_button_yes"
+            android:gravity="center"
+
+            android:text="@string/button_yes"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/size_text_16" />
+    </LinearLayout>
+
+</RelativeLayout>

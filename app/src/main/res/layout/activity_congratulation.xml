@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_background_congratulation">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/customTextView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/border_btn">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/size25"
+                android:layout_height="@dimen/size25"
+                android:layout_above="@+id/textView2"
+                android:layout_alignEnd="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:src="@mipmap/ic_face"></ImageView>
+
+            <com.riddle.common.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/size15"
+                android:gravity="center_vertical"
+                android:text="@string/share_facebook"
+                android:textColor="@color/colorTextWhite" />
+        </TableRow>
+    </RelativeLayout>
+
+    <com.riddle.common.CustomTextView
+        android:id="@+id/customTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size42"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/border_lock_the_answer"
+        android:gravity="center"
+        android:text="@string/play_next_level"
+        android:textColor="@color/colorTextWhite" />
+
+    <com.riddle.common.CustomTextView
+        android:id="@+id/textView16"
+        android:textSize="@dimen/size_text_21"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorTextWhite"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:text="@string/congratulation"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="@dimen/size84"
+        android:layout_height="@dimen/size103"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@mipmap/ic_cup"
+        android:layout_below="@+id/textView16"
+        android:layout_alignRight="@+id/textView19"
+        android:layout_alignEnd="@+id/textView19" />
+
+    <com.riddle.common.CustomTextView
+        android:id="@+id/textView19"
+        android:textSize="@dimen/size_text_21"
+        android:textColor="@color/colorTextWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/you_won" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="@dimen/size86"
+        android:layout_height="@dimen/size33"
+        app:srcCompat="@mipmap/ic_title"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+
+    <com.riddle.common.CustomTextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/level1"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/size_text_16"
+        android:layout_below="@+id/imageView16"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:elevation="12dp"
+        android:id="@+id/view2"
+        app:cardCornerRadius="40dp"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="1.9"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp">
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:id="@+id/imageView1"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+        </ImageView>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
